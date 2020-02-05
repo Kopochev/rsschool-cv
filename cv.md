@@ -26,8 +26,9 @@ for (var i = number; i >= 1; i /= 10)
   console.log(quantity);
  ``` 
 ## Experience:
-
+Finished interactive courses of HTML Academy. Completed a couple of hundred lab tests at the Institute
 ## Education:
-
-## English:
+Don State Technical University, bachelor degree Information systems and technology
+## English level:
+Approximately A2
 
