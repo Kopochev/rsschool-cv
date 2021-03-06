@@ -5,61 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Bebas+Neue&family=Montserrat:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
     <title>Vitaly Kopochev cv</title>
   </head>
   <body>
     <main>
       <div class="container">
-        <section class="contacts">
-          <h2>Vitaly Kopochev</h2>
-          <h2>Contacts:</h2>
-          <ul class="contact-links">
-            <li><b>Telegram: </b><a href="https://t.me/the_kopach">https://t.me/the_kopach</a></li>
-            <li><b>Email: </b><a href="mailto:copochev@yandex.ru">copochev@yandex.ru</a></li>
-            <li><b>Github: </b><a href="https://github.com/Kopochev">Github</a></li>
-          </ul>
-        </section>
-        <div class="picture">
-          <img src="img/picture.png" alt="burning dog" width="175" height="175" />
-        </div>
-        <h2>Skills:</h2>
-        <ul>
-          <li>Html, CSS, Js(basic knowledge)</li>
-          <li>Basic knowledge: C#, Delphi</li>
-          <li>VCS: Git</li>
-        </ul>
-        <h2>Code examples:</h2>
-        <p>
-          <code>
-            <pre>
+        <div class="inner">
+          <div class="left-column">
+            <div class="avatar-container">
+              <h1>
+                Vitaly <br />
+                Kopochev
+              </h1>
+              <div class="avatar">
+                <img src="img/ava.png" alt="burning dog" width="90" height="90" />
+              </div>
+            </div>
+            <p class="specialty">Front-end developer</p>
+            <div class="summary">
+              <h2 class="summary-title">summary</h2>
+              <p class="summary-content">
+                After a couple of years looking for myself and wasting my time, I want to start my
+                career as a Junior Front-end developer.
+              </p>
+            </div>
+          </div>
+          <div class="right-column">
+            <section class="contacts">
+              <h2>Contacts:</h2>
+              <ul class="contact-links">
+                <li>
+                  <b>Telegram: </b><a href="https://t.me/the_kopach">https://t.me/the_kopach</a>
+                </li>
+                <li><b>Email: </b><a href="mailto:copochev@yandex.ru">copochev@yandex.ru</a></li>
+                <li><b>Github: </b><a href="https://github.com/Kopochev">Github</a></li>
+              </ul>
+            </section>
+
+            <h2>Skills:</h2>
+            <ul>
+              <li>Html, CSS, Js(basic knowledge)</li>
+              <li>Basic knowledge: C#, Delphi</li>
+              <li>VCS: Git</li>
+            </ul>
+            <h2>Code examples:</h2>
+            <p>
+              <code>
+                <pre>
     let number = 1234;
     let quantity = 0;
-                
+                  
     for (let i = number; i >= 1; i /= 10) {
         quantity++;
     }
     console.log(quantity);
-          </pre
-            >
-          </code>
-        </p>
-        <h2>Experience:</h2>
-        <p>
-          Finished interactive courses of HTML Academy. <br />
-          Completed a couple of hundred lab tests at the Institute.
-        </p>
-        <h2>Education:</h2>
-        <p>Don State Technical University, bachelor degree Information systems and technologies</p>
-        <h2>English level:</h2>
-        <p>Approximately A2</p>
+                      </pre
+                >
+              </code>
+            </p>
+            <h2>Experience:</h2>
+            <p>
+              Finished interactive courses of HTML Academy. <br />
+              Completed a couple of hundred lab tests at the Institute.
+            </p>
+            <h2>Education:</h2>
+            <p>
+              Don State Technical University, bachelor degree Information systems and technologies
+            </p>
+            <h2>English level:</h2>
+            <p>Approximately A2</p>
+          </div>
+        </div>
       </div>
     </main>
     <footer>
-      <div class="info-links">
-        <a href="https://rs.school/js/">RSSchool</a>
-        <a href="https://github.com/Kopochev">Github</a>
+      <div class="container">
+        <div class="footer-inner">
+          <a href="https://rs.school/js/">RSSchool</a>
+          <span class="copyright"> 2021</span>
+          <a href="https://github.com/Kopochev">Github</a>
+        </div>
       </div>
-      <div class="copyright">&copy; 2021</div>
     </footer>
   </body>
 </html>
