@@ -117,16 +117,14 @@ footer {
   text-align: center;
 }
 
-/*.footer-inner {
-  display: flex;
-  justify-content: space-between;
+.mark-link{
+  text-decoration: none;
+  border-bottom: none;
+  transition: background-color 0.3s linear, color 0.3s linear;
+  background-color: #d3471c2f;
 }
-.copyright,
-.info-links {
-  width: 100%;
-  max-width: 500px;
+.mark-link:hover{
+  background-color: #4852A3;
 }
-.info-linksa {
-  margin: 0 auto;
-}
-*/
+
+
