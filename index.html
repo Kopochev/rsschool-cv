@@ -18,6 +18,23 @@
     <title>Vitaly Kopochev cv</title>
   </head>
   <body>
+    <header>
+      <div class="container">
+        <div class="menu__adaptive">
+          <span></span>
+        </div>
+        <nav class="menu">
+          <ul class="menu__items">
+            <li class="menu__item"><a href="#contacts">Contacts</a></li>
+            <li class="menu__item"><a href="#skills">Skills</a></li>
+            <li class="menu__item"><a href="#code">Code examples</a></li>
+            <li class="menu__item"><a href="#experience">Experience</a></li>
+            <li class="menu__item"><a href="#education">Education</a></li>
+            <li class="menu__item"><a href="#english">English level</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main>
       <div class="container">
         <div class="inner">
@@ -33,7 +50,7 @@
             </section>
             <p class="specialty">Front-end developer</p>
             <section class="summary">
-              <h2 class="summary-title">summary</h2>
+              <h3 class="summary-title">summary</h3>
               <p class="summary-content">
                 After a couple of years looking for myself and wasting my time, I want to start my career as a Junior Front-end
                 developer.
@@ -41,7 +58,7 @@
             </section>
           </div>
           <div class="right-column">
-            <section class="contacts">
+            <section class="contacts" id="contacts">
               <h2>Contacts:</h2>
               <ul class="contact-links">
                 <li><b>Telegram: </b><a href="https://t.me/the_kopach">https://t.me/the_kopach</a></li>
@@ -49,7 +66,7 @@
                 <li><b>Github: </b><a href="https://github.com/Kopochev">Github</a></li>
               </ul>
             </section>
-            <section class="skills">
+            <section class="skills" id="skills">
               <h2>Skills:</h2>
               <ul>
                 <li>Html, CSS, Js(basic knowledge)</li>
@@ -57,7 +74,7 @@
                 <li>VCS: Git</li>
               </ul>
             </section>
-            <section class="code">
+            <section class="code" id="code">
               <h2>Code examples:</h2>
               <pre><code class="language-javascript">
   let num = 1234;
@@ -70,7 +87,7 @@
   console.log(quantity);</code>
                 </pre>
             </section>
-            <section class="experience">
+            <section class="experience" id="experience">
               <h2>Experience:</h2>
               <p>
                 Finished interactive courses of
@@ -79,11 +96,11 @@
                 Completed a couple of hundred lab tests at the Institute.
               </p>
             </section>
-            <section class="education">
+            <section class="education" id="education">
               <h2>Education:</h2>
               <p>Don State Technical University, bachelor degree Information systems and technologies</p>
             </section>
-            <section class="engish">
+            <section class="english" id="english">
               <h2>English level:</h2>
               <p>Approximately A2</p>
             </section>
@@ -94,11 +111,12 @@
     <footer>
       <div class="container">
         <div class="footer-inner">
-          <a href="https://rs.school/js/">RSSchool</a>
+          <a href="https://rs.school/js/" target="blank">RSSchool</a>
           <span class="copyright"><time datetime="2021-09-16 10:15">2021</time></span>
-          <a href="https://github.com/Kopochev">Github</a>
+          <a href="https://github.com/Kopochev" target="blank">Github</a>
         </div>
       </div>
     </footer>
+    <script src="menu.js"></script>
   </body>
 </html>
