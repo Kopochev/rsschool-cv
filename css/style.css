@@ -153,6 +153,84 @@ header {
   background-color: #4852a3;
 }
 
+.spoiler-item {
+  margin-bottom: 20px;
+}
+.spoiler-item__trigger {
+  padding: 20px;
+  border: 1px dashed #000;
+  cursor: pointer;
+}
+.spoiler-item__trigger span {
+  background-color: rgba(204, 204, 204, 0.514);
+  transition: all 0.3s linear;
+  border-bottom: 1px dashed #000;
+}
+.spoiler-item__trigger span:hover {
+  background-color: rgb(27, 27, 27);
+  color: #ccc;
+}
+.spoiler-item__content {
+  padding: 20px;
+  border: 1px dashed #000;
+  border-top: none;
+  display: none;
+}
+
+.spoiler-item_active .spoiler-item__content {
+  display: block;
+}
+.project {
+  display: flex;
+  justify-content: space-between;
+  border: 1px dashed #000;
+  min-height: 100px;
+  margin-bottom: 10px;
+}
+.project:last-child {
+  margin-bottom: 0;
+}
+.project__left-column {
+  position: relative;
+}
+.project__name {
+  margin: 5px 0 0 5px;
+}
+.project__description {
+  margin: 5px 0 35px 5px;
+}
+.project__tags {
+  position: absolute;
+  bottom: 5%;
+}
+.project__tags span {
+  padding: 5px;
+  margin-right: 5px;
+  background-color: rgba(211, 71, 28, 0.184);
+}
+.project__right-column {
+  border-left: 1px dashed #000;
+}
+.project__right-column img {
+  max-width: 100px;
+  transition: all 0.3s ease-in;
+}
+.project__right-column img:hover {
+  opacity: 0.8;
+}
+.project__right-column a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  border-bottom: none;
+  background-color: transparent;
+}
+.project__right-column a:hover {
+  background-color: transparent;
+}
+
 @media (max-width: 980px) {
   .container {
     width: 100%;

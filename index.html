@@ -61,9 +61,9 @@
             <section class="contacts" id="contacts">
               <h2>Contacts:</h2>
               <ul class="contact-links">
-                <li><b>Telegram: </b><a href="https://t.me/the_kopach">https://t.me/the_kopach</a></li>
+                <li><b>Telegram: </b><a href="https://t.me/the_kopach" target="blank">https://t.me/the_kopach</a></li>
                 <li><b>Email: </b><a href="mailto:copochev@yandex.ru">copochev@yandex.ru</a></li>
-                <li><b>Github: </b><a href="https://github.com/Kopochev">Github</a></li>
+                <li><b>Github: </b><a href="https://github.com/Kopochev" target="blank">Github</a></li>
               </ul>
             </section>
             <section class="skills" id="skills">
@@ -91,10 +91,64 @@
               <h2>Experience:</h2>
               <p>
                 Finished interactive courses of
-                <mark><a href="https://htmlacademy.ru/profile/id845473" class="mark-link">HTML Academy</a></mark
+                <mark><a href="https://htmlacademy.ru/profile/id845473" target="blank" class="mark-link">HTML Academy</a></mark
                 >. <br />
                 Completed a couple of hundred lab tests at the Institute.
               </p>
+              <div class="spoiler">
+                <div class="spoiler-item">
+                  <div class="spoiler-item__trigger">
+                    Some projects. They may not be relevant and may not work as needed. <span>Click here to show</span>
+                  </div>
+                  <div class="spoiler-item__content">
+                    <div class="project">
+                      <div class="project__left-column">
+                        <h4 class="project__name">Singolo</h4>
+                        <p class="project__description">This is simple landing page with slider and some functional on js.</p>
+                        <div class="project__tags">
+                          <span>Html</span>
+                          <span>Css</span>
+                          <span>Js</span>
+                        </div>
+                      </div>
+                      <div class="project__right-column">
+                        <a href="https://kopochev.github.io/singolo/" target="blank"
+                          ><img src="/img/singolo.png" alt="Singolo"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="project">
+                      <div class="project__left-column">
+                        <h4 class="project__name">WildLife</h4>
+                        <p class="project__description">It's another simple landing page.</p>
+                        <div class="project__tags">
+                          <span>Html</span>
+                          <span>Css</span>
+                        </div>
+                      </div>
+                      <div class="project__right-column">
+                        <a href="https://rolling-scopes-school.github.io/kopochev-JSFE2021Q1/wildlife/" target="blank"
+                          ><img src="/img/Wildlife.png" alt="wildlife"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="project">
+                      <div class="project__left-column">
+                        <h4 class="project__name">Virtual piano</h4>
+                        <p class="project__description">Here i learned events in js</p>
+                        <div class="project__tags">
+                          <span>Js</span>
+                        </div>
+                      </div>
+                      <div class="project__right-column">
+                        <a href="https://rolling-scopes-school.github.io/kopochev-JSFE2021Q1/virtual-piano/" target="blank"
+                          ><img src="/img/virtual-piano.png" alt="virtual-piano"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
             <section class="education" id="education">
               <h2>Education:</h2>
@@ -117,6 +171,7 @@
         </div>
       </div>
     </footer>
-    <script src="menu.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/spoiler.js"></script>
   </body>
 </html>
